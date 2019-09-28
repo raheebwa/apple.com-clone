@@ -1,6 +1,6 @@
 ## Course:HTML and CSS
-### Project: PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS
-#### Codename: Newyork Times Clone
+### Project: BUILDING WITH BACKGROUNDS AND GRADIENTS
+#### Codename: Apple.com clone
 
 #### Contributors
 * [Aheebwa Ramadhan](https://github.com/raheebwa)
