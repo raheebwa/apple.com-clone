@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box; }
-
 html,
 body,
 div,
@@ -87,7 +84,8 @@ video {
   border: 0;
   font: inherit;
   font-size: 100%;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -101,77 +99,53 @@ hgroup,
 menu,
 nav,
 section {
-  display: block; }
-
-body {
-  line-height: 1; }
+  display: block;
+}
 
 ol,
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote,
 q {
-  quotes: none; }
+  quotes: none;
+}
 
-blockquote::before, blockquote::after {
+blockquote::before,
+blockquote::after {
   content: "";
-  content: none; }
+  content: none;
+}
 
-q::before, q::after {
+q::before,
+q::after {
   content: "";
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
-  font-size: 15px; }
+  font-size: 15px;
+  line-height: 1;
+}
 
 a {
   text-decoration: none;
-  color: #4bbcf6; }
+  color: #4bbcf6;
+}
 
 ul li {
-  display: inline; }
-
-.jumbo {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
-  background-image: url(/images/your_verse_hero.jpg);
-  background-position: bottom;
-  height: 85vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-  .jumbo .heading-section {
-    width: 50%;
-    margin: 0 auto; }
-    .jumbo .heading-section h1,
-    .jumbo .heading-section h2,
-    .jumbo .heading-section p {
-      text-align: center;
-      color: #fff; }
-      .jumbo .heading-section h1 a,
-      .jumbo .heading-section h2 a,
-      .jumbo .heading-section p a {
-        color: inherit; }
-        .jumbo .heading-section h1 a:hover,
-        .jumbo .heading-section h2 a:hover,
-        .jumbo .heading-section p a:hover {
-          text-decoration: underline; }
-    .jumbo .heading-section h1 {
-      margin-top: 10vh;
-      font-size: 3.5rem; }
-    .jumbo .heading-section h2 {
-      margin-top: 3vh;
-      font-size: 1.5rem; }
-    .jumbo .heading-section p {
-      font-size: 1.3rem;
-      padding-top: 7vh; }
+  display: inline;
+}
 
 .navbar {
   position: absolute;
@@ -183,45 +157,101 @@ ul li {
   color: #fff;
   width: 75vw;
   margin: 0 auto;
-  border-radius: 4px; }
-  .navbar ul {
-    height: 6vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr; }
-    .navbar ul li {
-      display: flex;
-      align-content: center;
-      align-items: center;
-      justify-content: center;
-      border-right: 1px solid #424242;
-      padding: 0 1em; }
-      .navbar ul li:hover {
-        background: radial-gradient(#707070, #222222); }
-      .navbar ul li a {
-        color: #fff; }
-    .navbar ul .nav-form {
-      border-right: none; }
-      .navbar ul .nav-form:hover {
-        background: transparent; }
-      .navbar ul .nav-form form div input {
-        width: 90%;
-        border-radius: 10px;
-        background: transparent;
-        transition-duration: 0.7s; }
-        .navbar ul .nav-form form div input:focus {
-          text-decoration: none; }
-        .navbar ul .nav-form form div input:hover {
-          background: #fff;
-          width: 95%;
-          transition: 20ms; }
+  border-radius: 4px;
+}
+.navbar ul {
+  height: 6vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+}
+.navbar ul li {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #424242;
+  padding: 0 1em;
+}
+.navbar ul li:hover {
+  background: radial-gradient(#707070, #222);
+}
+.navbar ul li a {
+  color: #fff;
+}
+.navbar ul .nav-form {
+  border-right: none;
+}
+.navbar ul .nav-form:hover {
+  background: transparent;
+}
+.navbar ul .nav-form form div input {
+  width: 90%;
+  border-radius: 10px;
+  background: transparent;
+  transition-duration: 0.7s;
+}
+.navbar ul .nav-form form div input:focus {
+  text-decoration: none;
+}
+.navbar ul .nav-form form div input:hover {
+  background: #fff;
+  width: 95%;
+  transition: 20ms;
+}
+
+.jumbo {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
+    sans-serif;
+  background-image: url(/images/your_verse_hero.jpg);
+  background-position: bottom;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.jumbo .heading-section {
+  width: 50%;
+  margin: 0 auto;
+}
+.jumbo .heading-section .heading,
+.jumbo .heading-section .sub-heading,
+.jumbo .heading-section .sub-sub-heading {
+  text-align: center;
+  color: #fff;
+}
+.jumbo .heading-section .heading a,
+.jumbo .heading-section .sub-heading a,
+.jumbo .heading-section .sub-sub-heading a {
+  color: inherit;
+}
+.jumbo .heading-section .heading a:hover,
+.jumbo .heading-section .sub-heading a:hover,
+.jumbo .heading-section .sub-sub-heading a:hover {
+  text-decoration: underline;
+}
+.jumbo .heading-section h1 {
+  margin-top: 10vh;
+  font-size: 3.5rem;
+}
+.jumbo .heading-section h2 {
+  margin-top: 3vh;
+  font-size: 1.5rem;
+}
+.jumbo .heading-section p {
+  font-size: 1.3rem;
+  padding-top: 7vh;
+}
 
 .image-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
-  .image-row a {
-    cursor: pointer; }
-    .image-row a img {
-      width: 100%; }
+  grid-template-columns: repeat(4, 1fr);
+}
+.image-row .promo-link {
+  cursor: pointer;
+}
+.image-row .promo-link .promo-image {
+  width: 100%;
+}
 
 footer {
   width: 75vw;
@@ -232,19 +262,25 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); }
-  footer div .footer-nav {
-    padding: 1vh 0; }
-    footer div .footer-nav li {
-      padding-right: 0.3vw;
-      padding-left: 0.2vw;
-      border-right: 1px solid #cdcdcd;
-      vertical-align: middle; }
-      footer div .footer-nav li img {
-        height: 0.7rem; }
-    footer div .footer-nav .nav-end {
-      border-right: none; }
-  footer div p {
-    padding: 1vh 0; }
+  grid-template-columns: repeat(2, 1fr);
+}
+footer div .footer-nav {
+  padding: 1vh 0;
+}
+footer div .footer-nav .footer-links {
+  padding-right: 0.3vw;
+  padding-left: 0.2vw;
+  border-right: 1px solid #cdcdcd;
+  vertical-align: middle;
+}
+footer div .footer-nav .footer-links .footer-h .footer-image {
+  height: 0.7rem;
+}
+footer div .footer-nav .nav-end {
+  border-right: none;
+}
+footer div .footer-p {
+  padding: 1vh 0;
+}
 
 /*# sourceMappingURL=application.css.map */
