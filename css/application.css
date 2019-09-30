@@ -159,11 +159,13 @@ ul li {
   margin: 0 auto;
   border-radius: 4px;
 }
+
 .navbar ul {
   height: 6vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
 }
+
 .navbar ul li {
   display: flex;
   align-content: center;
@@ -172,27 +174,34 @@ ul li {
   border-right: 1px solid #424242;
   padding: 0 1em;
 }
+
 .navbar ul li:hover {
   background: radial-gradient(#707070, #222);
 }
+
 .navbar ul li a {
   color: #fff;
 }
+
 .navbar ul .nav-form {
   border-right: none;
 }
+
 .navbar ul .nav-form:hover {
   background: transparent;
 }
+
 .navbar ul .nav-form form div input {
   width: 90%;
   border-radius: 10px;
   background: transparent;
   transition-duration: 0.7s;
 }
+
 .navbar ul .nav-form form div input:focus {
   text-decoration: none;
 }
+
 .navbar ul .nav-form form div input:hover {
   background: #fff;
   width: 95%;
@@ -200,7 +209,11 @@ ul li {
 }
 
 .jumbo {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
+  font-family:
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Helvetica,
+    Arial,
     sans-serif;
   background-image: url(/images/your_verse_hero.jpg);
   background-position: bottom;
@@ -209,34 +222,41 @@ ul li {
   flex-direction: column;
   justify-content: center;
 }
+
 .jumbo .heading-section {
   width: 50%;
   margin: 0 auto;
 }
+
 .jumbo .heading-section .heading,
 .jumbo .heading-section .sub-heading,
 .jumbo .heading-section .sub-sub-heading {
   text-align: center;
   color: #fff;
 }
+
 .jumbo .heading-section .heading a,
 .jumbo .heading-section .sub-heading a,
 .jumbo .heading-section .sub-sub-heading a {
   color: inherit;
 }
+
 .jumbo .heading-section .heading a:hover,
 .jumbo .heading-section .sub-heading a:hover,
 .jumbo .heading-section .sub-sub-heading a:hover {
   text-decoration: underline;
 }
+
 .jumbo .heading-section h1 {
   margin-top: 10vh;
   font-size: 3.5rem;
 }
+
 .jumbo .heading-section h2 {
   margin-top: 3vh;
   font-size: 1.5rem;
 }
+
 .jumbo .heading-section p {
   font-size: 1.3rem;
   padding-top: 7vh;
@@ -246,9 +266,11 @@ ul li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
 .image-row .promo-link {
   cursor: pointer;
 }
+
 .image-row .promo-link .promo-image {
   width: 100%;
 }
@@ -264,21 +286,26 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
 footer div .footer-nav {
   padding: 1vh 0;
 }
+
 footer div .footer-nav .footer-links {
   padding-right: 0.3vw;
   padding-left: 0.2vw;
   border-right: 1px solid #cdcdcd;
   vertical-align: middle;
 }
+
 footer div .footer-nav .footer-links .footer-h .footer-image {
   height: 0.7rem;
 }
+
 footer div .footer-nav .nav-end {
   border-right: none;
 }
+
 footer div .footer-p {
   padding: 1vh 0;
 }
