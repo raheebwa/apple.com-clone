@@ -215,7 +215,7 @@ ul li {
     Helvetica,
     Arial,
     sans-serif;
-  background-image: url(/images/your_verse_hero.jpg);
+  background-image: url("../images/bg.jpg");
   background-position: bottom;
   height: 85vh;
   display: flex;
