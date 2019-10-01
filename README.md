@@ -12,4 +12,4 @@ In this project the goal is to clone the website of one of the most design-forwa
 Clone [this](https://web.archive.org/web/20140301004610/http://www.apple.com/) applying only HTML & CSS. 
 
 ### Live Demo
-Checkout our finished page [here](https://raheebwa.com/apple.com-clone/)
+Checkout the finished page [here](https://raheebwa.com/apple.com-clone/)
